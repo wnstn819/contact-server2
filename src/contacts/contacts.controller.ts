@@ -17,7 +17,6 @@ export class ContactsController {
 
   @Get()
   async getAll(): Promise<Contact[]> {
-    console.log();
     return await this.contactsService.getAll();
   }
 
